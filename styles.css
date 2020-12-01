@@ -3,7 +3,7 @@
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 14%;
   }
 
   a:link {
@@ -45,15 +45,34 @@
 
   }
 
+
 .works {
     background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
+
+.column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 12px;
+  }
+
+
 
 .site_menu {
     list-style-type: none;
     font-family: Lato;
+    font-size: 8;
   src: url(service/Lato-Thin.ttf);
   color: rgb(26, 26, 26);
+  text-align: center;
+  padding-bottom: 24px;
 }
 
 .about_me {
