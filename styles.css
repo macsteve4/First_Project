@@ -1,5 +1,5 @@
 .logo_art { 
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -48,33 +48,36 @@
 
 .works {
     background-color: rgb(240, 240, 240);
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 12px
+    padding: 20px
 }
 
-.column {
+.physwork {
+  margin: 2rem auto;
   text-align: center;
-  }
-
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
+  
   }
 
   .works_dig {
     background-color: rgb(240, 240, 240);
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 20px;
   }
+
+.digwork {
+  margin: 2rem auto;
+  text-align: center;
+  }
+
+
+.ul {
+  text-align: center;
+  text-size-adjust: 12px;
+}
 
 .site_menu {
     list-style-type: none;
     font-family: Lato;
     font-size: 8;
-  src: url(service/Lato-Thin.ttf);
+  src: "service/Lato-Thin.ttf";
   color: rgb(26, 26, 26);
   text-align: center;
   padding-bottom: 24px;
@@ -86,14 +89,14 @@
     background-color: #daf0fd;
     font-family: QuattrocentoSans;
   src: url(service/QuattrocentoSans-Regular.ttf);
-  padding-left: 11rem;
-  padding-right: 11rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   padding-top: 2rem;
 }
 
 .me {
-  float: right;  
-  margin: 5px;
+  float: middle;  
+  margin: 20px;
 }
 
 .stevenlink {
