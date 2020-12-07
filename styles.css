@@ -1,10 +1,10 @@
 @font-face {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
   src: url(service/Lato-Light.ttf);
 }
 
 @font-face {
-  font-family: Sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   src: url(service/QuattrocentoSans-Regular.ttf);
 }
 
@@ -19,9 +19,8 @@
 .logo_art { 
     background-color: #ffffff;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  margin: 1.5rem;
+  text-align: left;
   }
 
   a:link {
@@ -105,17 +104,22 @@
   position: sticky;
 }
 
+.h3 {
+  font-family: Lato;
+  font-size: 25px;
+}
+
 .about_me {
     border-width: 0em;
     background-color: #dff3ff;
-    font-family: QuattrocentoSans;
+    font-family: "Quattrocento Sans";
 margin: auto;
-max-width: 600px;
+max-width: 540px;
 bottom: 0;
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.20rem;
   max-width: 536px;
 }
 
