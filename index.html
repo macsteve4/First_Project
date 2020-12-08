@@ -15,62 +15,36 @@
                 </a>
           </h1>
         </div>
+
        <div class="site_menu">
           <ul>
-            <li><a href="index.html">PHYSICAL</a></li>
-            <li><a href="digital.html">DIGITAL/MIXED</a></li>
+            <li><a href="index.html">UI/UX</a></li>
+            <li><a href="digital.html">ART</a></li>
             <li><a href="about.html">ABOUT</a></li>
           </ul>
         </div>
 
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        
 <script>
-
-var mybutton = document.getElementById("myBtn");
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
   }
-}
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
           <div class="works"> 
             <div class="physwork">
-              <img src="imagesscaled/chand.jpg" alt="Chandelier">
+              <a href="work2.html">
+              <img src="imagesscaled/realtitle.png" alt="Chandelier" width=600 height=470>
+            </a>
             </div>
             <div class="physwork">
-              <img src="imagesscaled/walk.jpg" alt="Chandelier">
-            </div>
-            <div class="physwork">
-              <img src="imagesscaled/pepper.jpg" alt="Chandelier">
-            </div>
-            <div class="physwork">
-              <img src="imagesscaled/vet.jpg" alt="Chandelier">
-            </div>
-            <div class="physwork">
-              <img src="imagesscaled/green.jpg" alt="Chandelier">
-            </div>
-            <div class="physwork">
-              <img src="imagesscaled/poly.jpg" alt="Chandelier">
-            </div>
-            <div class="physwork">
-              <img src="imagesscaled/look.jpg" alt="Chandelier">
-            </div>
-            <div class="physwork">
-              <img src="imagesscaled/sit.jpg" alt="Chandelier">
-            </div>
-            <div class="physwork">
-              <img src="imagesscaled/blue.jpg" alt="Chandelier">
+              <a href="work1.html">
+              <img src="imagesscaled/wcsjtitle.png" alt="Chandelier" width=600 height=470>
+            </a>
+              </div>
             </div>
         </div>
     </body>
