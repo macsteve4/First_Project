@@ -1,3 +1,5 @@
-# First_Project
+# idm221-sam646
 
-My first webpage where I set out to make a portfolio website to showcase my art and accomplishments.
+# My First Project...
+
+My first website where I set out to make a portfolio website to showcase my art and accomplishments.
