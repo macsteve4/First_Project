@@ -1,3 +1,4 @@
+/* Items below concern the management and use of fonts. */
 @font-face {
   font-family: 'Lato';
   src: url('fonts/Lato-Regular.woff2') format('woff2'),
@@ -15,21 +16,21 @@
   font-style: normal;
   font-display: swap;
 }
-
+/* Formatting for site elements to ensure consistency. */
 * {
   margin: 0;
       margin-right: 0px;
       margin-left: 0px;
   padding: 0;
 }
-
+/* Below directs the behavior of the site's logo as well as its background. */
 .logo_art { 
     background-color: #ffffff;
     display: block;
   margin: 1.5rem;
   text-align: left;
   }
-
+/* This section is concerned with the colors of nav text when interacted with. */
   a:link {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -57,7 +58,7 @@
     letter-spacing: .1rem;
 
   }
-
+/* This follows the attribution of Lato to the nav items, and their placement. */
   li {
     font-family: Lato;
     display: inline;
@@ -70,7 +71,7 @@
     padding: 18px;
 
   }
-
+/* Standarized scaling and formatting for the site's images. */
   img {
     max-width: 100%;
     height: auto;
@@ -83,7 +84,7 @@
     background-color: rgb(240, 240, 240);
     padding: 20px
 }
-
+/* This section is for placement and fonts of the welcome text on the index. */
 .container {
   font-family: Lato;
   font-size: 21px;
@@ -101,7 +102,7 @@
   background-color: black;
   padding: 0.5rem;
 }
-
+/* Sections follow content layout for projects. */
 .worksalt{
   background-color: rgb(240, 240, 240);
 }
@@ -112,13 +113,13 @@ margin: auto;
 max-width: 600px;
 bottom: 0;
 }
-
+/* Margins for regular art images. */
 .physwork {
   margin: 2rem auto;
   
   }
 
-
+/* Content padding specifically for projects. */
 .projectwork {
   margin: 2rem auto;
   padding-left: 2rem;
@@ -129,7 +130,7 @@ bottom: 0;
 .ul {
   text-align: center;
 }
-
+/* Concerns the fonts and placement of the whole navbar. Some content may be filtered. */
 .site_menu {
     list-style-type: none;
     font-family: Lato;
@@ -147,7 +148,7 @@ h3 {
   padding-left: 2rem;
   padding-bottom: 1rem;
 }
-
+/* Placeable adherences for my about me page. */
 .about_me {
     border-width: 0em;
     background-color: #dff3ff;
@@ -163,21 +164,21 @@ p {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
+/* Unique placement for my about me image. */
 .me { 
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
 }
-
+/* Guides for my linked footer content. */
 .stevenlink {
 display: inline-block;
 margin-left: auto;
 margin-right: auto;
 padding: 12px
 }
-
+/* The formatting and scaling of the purple "top" button. */
 #myBtn {
   display: none;
   position: fixed;
@@ -199,7 +200,7 @@ padding: 12px
 #myBtn:hover {
   background-color: #555;
 }
-
+/* Overall footer adherence. */
 .bottom {
     text-align: center;
 }
