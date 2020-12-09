@@ -84,9 +84,22 @@
     padding: 20px
 }
 
-.works3 {
-  background-color: rgb(240, 240, 240);
-  padding: 20px
+.container {
+  font-family: Lato;
+  font-size: 21px;
+  position: relative;
+  text-align: left;
+  color: white;
+
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 0.5rem;
 }
 
 .worksalt{
